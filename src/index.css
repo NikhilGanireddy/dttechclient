@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+li {
+    @apply p-2 rounded-full bg-[#0029ff] border-none cursor-pointer text-white
+}
+
+.btn-blue{
+    @apply bg-[#0029ff] text-white font-semibold rounded-lg border-none outline-none px-4 py-2
+}
+select{
+    @apply p-2 text-xs rounded-lg outline-none border-none
+}
+option{
+    @apply text-xs
+}
