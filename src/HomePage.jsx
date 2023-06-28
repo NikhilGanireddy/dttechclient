@@ -9,27 +9,6 @@ import {FaPeopleGroup} from "react-icons/fa6";
 import {BsFillCalendarRangeFill} from "react-icons/bs";
 
 const HomePage = () => {
-    // const [linkData, setLinkData] = useState();
-    //
-    // const url =
-    //   "https://dev.deepthought.education/assets/uploads/files/files/others/ddugky_project.json";
-    //
-    // const getData = () => {
-    //   axios
-    //     .get("/", {
-    //       headers: {
-    //         "Access-Control-Allow-Origin": "*",
-    //         "Access-Control-Allow-Methods":
-    //           "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-    //         "Access-Control-Allow-Credentials": "true",
-    //       },
-    //     })
-    //     .then((response) => {
-    //       setLinkData(response.data);
-    //     });
-    // };
-    //
-    // useEffect(() => getData(), []);
 
     const {linkData, setLinkData} = useContext(DataContext)
     return (

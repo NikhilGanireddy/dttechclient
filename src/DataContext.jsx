@@ -7,8 +7,6 @@ export function DataContextProvider({children}) {
     const [linkData, setLinkData] = useState();
     const [toggleThreadA, setToggleThreadA] = useState(true)
 
-    const url =
-        "https://dev.deepthought.education/assets/uploads/files/files/others/ddugky_project.json";
 
     const getData = () => {
         axios
