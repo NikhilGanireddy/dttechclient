@@ -5,8 +5,8 @@ import HomePage from "./HomePage";
 import { DataContextProvider } from "./DataContext.jsx";
 
 const App = () => {
-  axios.defaults.baseURL = "https://dttechserver.onrender.com";
-   https: axios.defaults.withCredentials = true;
+  axios.defaults.baseURL = "http://localhost:4000";
+  https: axios.defaults.withCredentials = true;
   return (
     <DataContextProvider>
       <Routes>
